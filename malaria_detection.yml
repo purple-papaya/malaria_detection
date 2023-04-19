@@ -1,0 +1,27 @@
+name: malaria_detection
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+
+  - numpy
+  - pandas
+  - random
+  - typing
+  - concurrent
+  - contextlib
+  - warnings
+
+  - jupyterlab
+
+  - PIL
+  - cv2
+
+  - torch
+  - torchvision
+  - torchinfo
+  - sklearn
+
+  - matplotlib
+  - seaborn
