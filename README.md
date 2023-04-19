@@ -44,10 +44,10 @@ Which deep learning technique best solves the problem?
  
 The final proposed solution is a CNN [4] improved with LeakyReLU to combat vanishing gradients and Batch Normalization to reduce the internal covariate shift and make training more stable and efficient, utilizing HSV-transformed images. HSV transformation was chosen due to its robustness to lighting variations and shadows, as the Hue component remains relatively stable under different microscopic lighting conditions, resulting into a clear color definition of parasites within red blood cells and helping to differentiate them from cell impurities (thus improving false positivity rates).
 
-![rgb_cropped.png]('rgb_cropped.png')
+![rgb_images](rgb_cropped.png)
 RGB images.
 
-![hsv_cropped.png]('hsv_cropped.png')
+![hsv_images](hsv_cropped.png)
 HSV images.
  
  # Data
@@ -56,6 +56,6 @@ This dataset was taken from the National Institutes of Health (NIH) website (htt
  
  # Environment
  
- Activate with `conda env create -f winters_in_moravia.yml`.
+ Activate with `conda env create -f malaria_detection.yml`.
  
  
